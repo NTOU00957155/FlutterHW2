@@ -63,7 +63,7 @@ topic_detail.dart
 
 ## 🤖 AI 與平台說明
 
-- 本專案由 [ChatGPT](https://chat.openai.com) 協助開發 UI 架構與 Flutter 實作建議。
+- 本專案由 [ChatGPT](https://chat.openai.com) 協助開發實作建議。
 - 使用 [FlutLab.io](https://flutlab.io) 平台進行 Flutter 線上開發與預覽。
 
 ---
