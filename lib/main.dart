@@ -37,11 +37,26 @@ class AboutHomePage extends StatelessWidget {
           children: [
             Image.asset("assets/images/tiananmen.jpg"),
             const SizedBox(height: 10),
+            // 👇 加入 Row：圖示 + 標題文字
+            Padding(
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8),
+              child: Row(
+                children: const [
+                  Icon(Icons.info_outline, color: Colors.red),
+                  SizedBox(width: 8),
+                  Text(
+                    "六四主題導覽",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
             const Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
                 "選擇一個主題了解更多六四事件的相關內容",
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18),
               ),
             ),
             const Divider(),
